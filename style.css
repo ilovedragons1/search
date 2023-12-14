@@ -1,0 +1,30 @@
+#title{
+    font-family: Helvetica;
+    margin-top: 40px;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#main{
+    width: 100vw;
+    height: 780px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.word{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 32px;
+    text-align: center;
+}
